@@ -1,0 +1,46 @@
+{
+  "validation": {
+    "logreg_roc_auc": 0.8363830117027047,
+    "logreg_pr_auc": 0.6426588835199296,
+    "xgb_roc_auc": 0.8404686248676019,
+    "xgb_pr_auc": 0.6472993704891032,
+    "xgb_best_iteration": 97
+  },
+  "xgb_cv_roc_auc_mean": 0.8480529993145911,
+  "threshold": 0.7,
+  "cost_assumptions": {
+    "contact": 1.0,
+    "loss": 5.0,
+    "save_rate": 0.4
+  },
+  "test": {
+    "logreg_roc_auc": 0.8424500762096669,
+    "xgb_roc_auc": 0.8436009713503321,
+    "xgb_pr_auc": 0.6508107944380241,
+    "recall": 0.5187165775401069,
+    "precision": 0.6488294314381271,
+    "confusion_matrix [[TN, FP],[FN, TP]]": [
+      [
+        930,
+        105
+      ],
+      [
+        180,
+        194
+      ]
+    ],
+    "net_value_model": 89.00000000000006,
+    "net_value_contact_everyone": -661.0,
+    "net_value_contact_nobody": 0.0
+  },
+  "top_shap_features": {
+    "Contract_Two year": 0.5095000267028809,
+    "tenure": 0.3605000078678131,
+    "InternetService_Fiber optic": 0.31940001249313354,
+    "Contract_One year": 0.20900000631809235,
+    "PaymentMethod_Electronic check": 0.15289999544620514,
+    "InternetService_No": 0.12409999966621399,
+    "MonthlyCharges": 0.1062999963760376,
+    "TotalCharges": 0.07999999821186066
+  }
+}

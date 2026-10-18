@@ -1,0 +1,13 @@
+# data (download separately, see README)
+*.csv
+data/
+
+# model files
+*.pt
+*.pkl
+
+# Python / notebook clutter
+__pycache__/
+.ipynb_checkpoints/
+.virtual_documents/
+.DS_Store
